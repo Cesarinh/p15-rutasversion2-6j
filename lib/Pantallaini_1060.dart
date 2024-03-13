@@ -8,7 +8,7 @@ class Pantallaini_1060 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Pantalla inicio Cesar'),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.black,
       ),
       body: Center(
         child: Column(
@@ -18,13 +18,13 @@ class Pantallaini_1060 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, '/Pantalla1_1060');
               },
-              child: const Text('Cambia a panatalla1'),
+              child: const Text('Ejemplo card'),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, '/Pantalla2_1060');
               },
-              child: const Text('Cambia a panatalla2'),
+              child: const Text('Cambia a pantalla2'),
             )
           ],
         ),

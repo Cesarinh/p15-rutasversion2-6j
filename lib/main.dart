@@ -3,7 +3,7 @@ import 'package:p13pageroutergonzalez1060/Pantalla2_1060.dart';
 import 'package:p13pageroutergonzalez1060/Pantalla1_1060.dart';
 import 'package:p13pageroutergonzalez1060/Pantallaini_1060.dart';
 
-void main() => runApp(MiApp1060());
+void main() => runApp(const MiApp1060());
 
 class MiApp1060 extends StatelessWidget {
   const MiApp1060({super.key});
